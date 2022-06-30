@@ -32,6 +32,7 @@ public class loops {
         }
         for(int i =11;i>0;i-=2){
             System.out.println(i);
+
         }
     }
 }
