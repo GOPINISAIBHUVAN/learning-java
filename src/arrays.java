@@ -8,6 +8,7 @@ public class arrays {
         marks[4] = 78;
         int[] mark ={67,98,78,56,100};
         System.out.println(mark[4]);
+        System.out.println("hi");
 
     }
 }
