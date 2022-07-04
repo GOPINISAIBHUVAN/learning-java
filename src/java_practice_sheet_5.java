@@ -56,7 +56,32 @@ public class java_practice_sheet_5 {
         System.out.println(multi1);
 
         // problem 7
+        int a = 1;
+        while (a<5){
+            int b = 1 ;
+            while(b<=a){
+                System.out.print("*");
+                b++;
+            }
+            System.out.println();
+            a++;
+        }
 
+        // problem 8
+
+        int sum1=0;
+        for(int h =1;h<=10;h++){
+            sum1 = sum1 + (8*h) ;
+        }
+        System.out.println(sum1);
+
+        // problem 9
+
+        int sum2 = 0;
+        for(int l =1;l<=4;l++){
+            sum2 = sum2 + (2*l);
+        }
+        System.out.println(sum2);
     }
 }
 

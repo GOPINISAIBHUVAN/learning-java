@@ -15,35 +15,21 @@ public class rock_paper_scissor {
         Random r = new Random();
         int computer = r.nextInt(2);
         System.out.println(computer);
-        if(computer == 0 && input == 1){
+
+        if(computer == 0 && input == 1||computer == 1 && input == 2||computer == 2 && input == 0){
             System.out.println("you win");
         }
-        else if(computer == 0 && input == 2){
+        else if(computer == 0 && input == 2||computer == 1 && input == 0||computer == 2 && input == 1){
             System.out.println("computer win");
         }
-        else if(computer == 0 && input == 0){
-            System.out.println("match draw");
-        }
-        else if(computer == 1 && input == 0){
-            System.out.println("computer win");
-        }
-        else if(computer == 1 && input == 1){
-            System.out.println("match draw");
-        }
-        else if(computer == 1 && input == 2){
-            System.out.println("you win");
-        }
-        else if(computer == 2 && input == 0){
-            System.out.println("you win");
-        }
-        else if(computer == 2 && input == 1){
-            System.out.println("computer win");
-        }
-        else if(computer == 2 && input == 2){
+        else if(computer == input ){
             System.out.println("match draw");
         }
         else if(input >= 3){
             System.out.println("input invalid");
         }
+
+
+
     }
 }
