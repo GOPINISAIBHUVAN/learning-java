@@ -13,5 +13,6 @@ class Solution {
 }
 public class leetcode_1 {
     public static void main(String[] args) {
+
     }
 }
