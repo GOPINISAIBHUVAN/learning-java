@@ -5,5 +5,6 @@ public class add3numbers {
         int c = 67;
         int sum = a+b+c;
         System.out.println(sum);
+        System.out.println(8%10);
     }
 }

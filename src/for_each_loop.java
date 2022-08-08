@@ -9,7 +9,5 @@ public class for_each_loop {
         for(int element : mark){
             System.out.println(element);
         }
-
-
     }
 }
